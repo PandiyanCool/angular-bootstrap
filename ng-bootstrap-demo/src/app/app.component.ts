@@ -5,6 +5,7 @@ import { Component } from '@angular/core';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
+
 export class AppComponent {
-  title = 'ng-bootstrap-demo';
+  images = [944, 1011, 984].map((n) => `https://picsum.photos/id/${n}/1366/600`);
 }
